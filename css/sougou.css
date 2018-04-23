@@ -1,0 +1,397 @@
+#main{
+    width: 100%;
+    float: left;
+}
+/*logo*/
+#logo{
+    width: 100%;
+    height: 135px;
+    background-image: url("../images/wrapper_bg.png");
+    background-repeat: repeat-x;
+}
+#main #logo #logo-head{
+    width: 1000px;
+    margin: 0px auto;
+}
+/*logo-top*/
+#main #logo #logo-head .logo-top{
+    width: 1000px;
+    height: 30px;
+}
+#main #logo #logo-head .logo-top ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#main #logo #logo-head .logo-top ul li{
+    list-style-type: none;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+#main #logo #logo-head .logo-top ul li:hover a{
+    color: orange;
+}
+#main #logo #logo-head .logo-top ul li  a{
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 12px;
+    color: #7A7A7A;
+}
+#main #logo #logo-head .logo-top .sign{
+    padding-left: 40px;
+}
+/*logo-middle*/
+#main #logo #logo-head .log-midddle{
+    width: 1000px;
+    height: 50px;
+    margin-top: 8px;
+}
+#main #logo #logo-head .log-midddle .logo-left{
+    float: left;
+    padding-top: 5px;
+}
+#main #logo #logo-head .log-midddle .logo-right{
+     float: right;
+     margin-right: 70px;
+     padding-top: 10px;
+     width: 325px;
+     height: 32px;
+
+}
+#main #logo #logo-head .log-midddle .logo-right .text{
+    position: relative;
+}
+#main #logo #logo-head .log-midddle .logo-right .text input{
+    width:290px;
+    height: 26px;
+    color: #818181;
+    text-indent: 1em;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+#main #logo #logo-head .log-midddle .logo-right .text input:visited{
+
+}
+
+.search{
+    outline-color: orange;
+}
+/*logo-bottom*/
+#main #logo #logo-head .logo-bottom{
+    width: 1000px;
+    height: 30px;
+    float: left;
+    margin: 0px auto;
+     margin-top: 14px;
+}
+#main #logo #logo-head .logo-bottom ul{
+    padding: 0px;
+    margin: 0px;
+}
+#main #logo #logo-head .logo-bottom ul li{
+    list-style-type: none;
+    float: left;
+}
+#main #logo #logo-head .logo-bottom ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    padding-right: 40px;
+     padding-left: 40px;
+    color: white;
+    font-weight: bold;
+}
+#main #logo #logo-head .logo-bottom ul li:hover {
+     background-color: #E9500D;
+}
+/*banner*/
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #FEFCF0;
+}
+/*banner-content*/
+ .banner-content{
+    width: 1000px;
+    height: 400px;
+    background-image: url(../images/banner_7.5.1.jpg);
+    margin: 0px auto;
+}
+ .banner-content .download .download-top .one{
+    color: #C9955C;
+    font-size: 14px;
+}
+.banner-content .download .download-top .two a{
+    text-decoration: none;
+    color: #FF681F;
+}
+ .banner-content .download .download-top .two{
+     font-size: 14px;
+}
+#main #banner .banner-content{
+    position: relative;
+}
+#main #banner .banner-content .download .download-bottom{
+    position: absolute;
+    left:540px;
+    bottom: 60px;
+    width: 273px;
+    height: 70px;
+    background-image: url("../images/btn_down_pc_7.5.0.png");
+    background-repeat: no-repeat;
+}
+#main #banner .banner-content .download .download-bottom:hover{
+    background-position: 0px -70px;
+}
+#main #banner .banner-content .download .download-top{
+    position: absolute;
+    left:550px;
+    bottom: 140px;
+}
+/*content*/
+#content{
+    width: 100%;
+}
+#contain{
+    width: 1000px;
+    padding-top: 15px;
+    margin: 0px auto;
+}
+/*content-left*/
+#content #contain .content-left{
+    width: 720px;
+    float: left;
+}
+/*content-left-top*/
+#content #contain .content-left .content-left-top{
+    width: 720px;
+    float: left;
+}
+#content #contain .content-left .content-left-top dd .word{
+    text-decoration: none;
+    color: grey;
+}
+#content #contain .content-left .content-left-top dd .word:hover {
+    color: orange;
+}
+#content #contain .content-left .content-left-top a:hover dl{
+    opacity: 0.7;
+}
+#content #contain .content-left.content-left-top dl,dt,dd{
+    padding: 0px;
+    margin: 0px;
+}
+#content #contain .content-left .content-left-top dl{
+    float: left;
+    width: 333px;
+    height: 157px;
+    padding-right: 26px;
+    margin-top: 0px;
+    background-image: url("../images/skin_border.png");
+    background-repeat: no-repeat;
+}
+#content #contain .content-left .content-left-top dl dd{
+    font-size: 13px;
+    color: #696969;
+    padding-top: 18px;
+
+}
+#content #contain .content-left .content-left-top dl dt{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+/*content-left-middle*/
+#content #contain .content-left .content-left-middle{
+    width: 720px;
+    float: left;
+    margin-top: 5px;
+}
+#content #contain .content-left .content-left-middle dl,dt,dd{
+    padding: 0px;
+    margin: 0px;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num1{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num2{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num3{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num4{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num5{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dd a:hover .num6{
+    opacity: 0.7;
+}
+#content #contain .content-left .content-left-middle dl{
+    width: 90px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#content #contain .content-left .content-left-middle dl .num1{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    margin:5px;
+}
+#content #contain .content-left .content-left-middle dl .num2{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: -76px 0px;
+    margin:5px;
+}
+#content #contain .content-left .content-left-middle dl .num3{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: -152px 0px;
+    margin:5px;
+}
+#content #contain .content-left .content-left-middle dl .num4{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: -228px 0px;
+    margin:5px;
+}
+#content #contain .content-left .content-left-middle dl .num5{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: -304px 0px;
+    margin:5px;
+}
+#content #contain .content-left .content-left-middle dl .num6{
+    width:76px;
+    height: 23px;
+    background-image: url("../images/down_ex_func.png");
+    background-repeat: no-repeat;
+    background-position: -380px 0px;
+    margin:5px;
+}
+/*content-left-bottom*/
+#content #contain .content-left .content-left-bottom{
+    width: 720px;
+    float: left;
+    margin-top: 15px;
+}
+#content #contain .content-left .content-left-bottom dd a{
+    text-decoration: none;
+    color: grey;
+}
+#content #contain .content-left .content-left-bottom dd a:hover{
+    color: orange;
+}
+#content #contain .content-left .content-left-bottom dl,dt,dd{
+    padding: 0px;
+    margin: 0px;
+}
+#content #contain .content-left .content-left-bottom dl {
+    width: 90px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#content #contain .content-left .content-left-bottom dl dd{
+    font-size: 14px;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+/*content-right*/
+#content .content-right{
+    width: 270px;
+    float:left;
+    margin-left: 10px;
+}
+#content .content-right .content-right-top{
+    width: 266px;
+    float:left;
+}
+#content .content-right .content-right-top ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+#content .content-right .content-right-top ul li{
+    list-style-type: none;
+    font-size: 12px;
+    color: #696969;
+    font-weight: bold;
+    width: 266px;
+    height: 33px;
+    float: left;
+    background-image: url("../images/activity_bg.png");
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    text-indent: 1em;
+}
+#content .content-right .content-right-top ul li .color{
+    color: orange;
+}
+#content .content-right .content-right-top ul li .color:hover{
+    color: #FE0103;
+}
+#content .content-right .content-right-top ul li:hover{
+    color: #FE0103;
+}
+#content .content-right .content-right-middle{
+    width: 266px;
+    height: 174px;
+    float: left;
+    margin-top: 5px;
+}
+#content .content-right .content-right-photo{
+    width: 265px;
+    height: 182px;
+    float: left;
+}
+#content .content-right .content-right-photo a:hover{
+    opacity: 0.7;
+}
+#content .content-right .content-right-bottom{
+    width: 266px;
+    height: 288px;
+    float: left;
+    margin-top: 5px;
+}
+#foot{
+    width: 100%;
+    float: left;
+}
+#foot .foot-content{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+#foot .foot-content p{
+    font-size: 14px;
+    line-height: 15px;
+    height: 15px;
+    text-align: center;
+}
+#foot .foot-content p a{
+    color: #A0AFCC;
+    text-decoration: none;
+}
+#foot .foot-content p a:hover{
+    text-decoration: underline;
+}
+#foot .foot-content .first{
+    color: #020202;
+}
